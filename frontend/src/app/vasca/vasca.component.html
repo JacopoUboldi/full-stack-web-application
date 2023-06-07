@@ -1,0 +1,21 @@
+<div class="row m-3 table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">IDSale</th>
+        <th scope="col">IDAcquario</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let item of items">
+
+          <td>{{item.ID}}</td>
+          <td>{{item.IDSale}}</td>
+          <td>{{item.IDAcquario}}</td>
+          
+      </tr>
+      
+    </tbody>
+  </table>
+  </div>
